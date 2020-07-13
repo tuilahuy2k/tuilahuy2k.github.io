@@ -1,0 +1,379 @@
+/* CSS Document */
+*{
+	scroll-behavior: smooth;
+}
+.banner{
+	background: url(../img/wallpaperflare.com_wallpaper.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: top;
+	position: relative;
+	background-size: cover;
+}
+.banner2{
+	background: url(../img/1968-dodge-super-charger-concept-rear-0lv2.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.banner3{
+	background: url(../img/383295v3.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.banner4{
+	background: url(../img/383394.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.banner5{
+	background: url(../img/headcar.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.about{
+	background: url(../img/wp3137603-1968-dodge-charger-wallpapersv1.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.feedback{
+	background: url(../img/feedback.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: bottom;
+	background-size: cover;
+}
+.more{
+	background: url(../img/1970-hemi-cuda-restomod-4v3.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: bottom;
+	background-size: cover;
+}
+.banner h1{
+	font-size: 60px !important;
+	color: white;
+	text-shadow: 0px 0px 50px black;
+}
+.banner hr{
+	color: white;
+	height:5px;
+	background: #E6271A;
+	width: 50px;
+	float: left;
+}
+.banner p{
+	color: white;
+	font-size: 20px;
+}
+.banner .btn-banner{
+	padding: 15px 20px;
+}
+.banner .banner-content{
+/*	padding-top: 190px;*/
+}
+
+.banner-content-1{
+	padding-top: 190px;
+}
+
+
+.vertical-menu-custom{
+	top: 50%;
+	max-width: 80px;
+}
+
+.vertical-menu hr{
+	height: 3px;
+	background: white;
+	width: 100px;
+	margin: 5px;
+	padding: 0px;
+	float: left;
+}
+.vertical-menu .navbar{
+	align-items: baseline
+}
+.vertical-menu .nav-pills .nav-link{
+	font-weight: bolder;
+}
+.vertical-menu .navbar.active{
+	background: none;
+}
+.vertical-menu .nav-link.active, .nav-pills .show>.vertical-menu .nav-link {
+	margin-left: 30px;
+	transition: all 0.3s;
+}
+.vertical-menu .nav-item{
+	background: blac
+}
+
+
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #171916;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #fff;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #DD1B22;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }	
+}
+
+/*transparent menu*/
+
+.logo-custom{
+	min-height: 80px;
+	max-height: 70px;
+	width: 300px;
+	background-image: url(../img/logo/logo_white.svg);
+	background-repeat: no-repeat;
+	color: white;		
+}
+.logo-custom.logo2{
+		min-height: 30px!important;
+		max-height: 50px!important;
+		background-image: url(../img/logo/logo-dodge.png)!important;
+	}
+/*menu*/
+
+.slogan{
+	font-family: Rubik;
+	font-weight: 600;
+	font-style: italic;
+	color: white;
+	position: absolute;
+	font-size: 2.2em;
+	left: 0px;
+	top: 50%;
+}
+.name-brand{
+	font-family: Saira Semi Condensed;
+	font-weight: 900;
+	font-size: 4.5em;
+	color: white;
+	float: right;
+	position: absolute;
+	left: 500px;
+	top: 60%;
+}
+.logo-slogan{
+	margin-top: 550px;
+	overflow: hidden;
+	height: 250px;
+	position: relative;
+}
+@media (max-width: 1500px) {
+	.logo-slogan{
+		margin-top: 200px;
+	}
+}
+.line-skew_40d_1{
+	width: 80px;
+	height: 300px;
+	transform: skew(-40deg)!important;
+	background: #e7281b;
+	left: 400px;
+}
+.line-skew_40d_2{
+	width: 80px;
+	height: 300px;
+	transform: skew(-40deg)!important;
+	background: #e7281b;
+	left: 500px;
+}
+.dark-filter-gr{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to left, (39,39,39,0.90), rgba(39,39,39,0.0));
+	background: rgba(39,39,39,0.50);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.note{
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 15px;
+	width: 70%;
+	margin: 0 autp;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+	background: black;
+	box-shadow: 0px 0px 6px 1px red;
+}
+
+
+.mar-top-50{
+	position: relative;
+	margin-top: 30%;
+}
+
+.btn-outline-dark{
+	border: 3px solid;
+	font-weight: bolder;
+	transition: all 0.3s;
+}
+.btn-outline-dark:hover{
+	box-shadow: 0px 0px 6px 1px red;
+	background-color: rgba(23,25,22,.7)
+}
+.btn-outline-dark:active{
+		box-shadow: 0px 0px 6px 1px red;
+	background-color: rgba(23,25,22,.7)
+
+}
+
+.customer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+.customer-info{text-align: center}
+.customer-name{
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+}
+.feedback-content{
+	display: flex;
+	flex-direction: column;
+}
+.FBack-avata{
+	border-radius: 50%;min-height: 10%;
+	width: 100%;
+	background-image: url(../img/avata.jpg);
+	border: 8px solid white;
+
+}
+
+
+
+
+.form-custom{
+	position: relative;
+	top: 50%;
+}
+.form-custom .email-custom{
+	width: 400px;
+	height: 60px;
+	font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(238, 238, 238, 0.27);
+    color: #FFFFFF;
+}
+
+.form-custom .email-custom:focus{
+	box-shadow: 0px 0px 5px 1px red;
+}
+.btn-notify{
+	height: 60px;
+	width: 150px;
+	margin-left: 20px;
+	background: white;
+}
+.btn-notify:hover{
+	background-color: rgba(23,25,22,.7)
+}
+/* Chrome, Opera, Safari */
+::-webkit-input-placeholder {
+  	color: white;
+	font-weight: bolder;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder {
+  	color: white;
+	font-weight: bolder;}
+
+/* IE 10+ */
+:-ms-input-placeholder {
+  	color: white;
+	font-weight: bolder;
+}
+
+/* Firefox 18- */
+:-moz-placeholder {
+  	color: white;
+	font-weight: bolder;}
+
+.content-filter-right{
+	background-image: linear-gradient(to right, rgba(20,20,20,.3), rgba(20,20,20,2));
+	padding-bottom: 15px;
+	color: rgba(33,33,33,1.00)
+}
+.content-filter-left{
+	background-image: linear-gradient(to left, rgba(20,20,20,.3), rgba(20,20,20,2));
+	padding-bottom: 15px;
+	color: rgba(33,33,33,1.00)
+}
+.mar-top-15{
+	margin-top: 15px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: block;
+	background: red;
+}
+.disblock{
+	display: block !important;
+}
+.disnone{
+	display: none !important;
+}
